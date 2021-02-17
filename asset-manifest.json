@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PENUGASAN-OPREC-WEB-MXM21/static/css/main.5ba6a973.chunk.css",
+    "main.js": "/PENUGASAN-OPREC-WEB-MXM21/static/js/main.69e5917d.chunk.js",
+    "main.js.map": "/PENUGASAN-OPREC-WEB-MXM21/static/js/main.69e5917d.chunk.js.map",
+    "runtime-main.js": "/PENUGASAN-OPREC-WEB-MXM21/static/js/runtime-main.979f9938.js",
+    "runtime-main.js.map": "/PENUGASAN-OPREC-WEB-MXM21/static/js/runtime-main.979f9938.js.map",
+    "static/js/2.0554e5d4.chunk.js": "/PENUGASAN-OPREC-WEB-MXM21/static/js/2.0554e5d4.chunk.js",
+    "static/js/2.0554e5d4.chunk.js.map": "/PENUGASAN-OPREC-WEB-MXM21/static/js/2.0554e5d4.chunk.js.map",
+    "static/js/3.5492a786.chunk.js": "/PENUGASAN-OPREC-WEB-MXM21/static/js/3.5492a786.chunk.js",
+    "static/js/3.5492a786.chunk.js.map": "/PENUGASAN-OPREC-WEB-MXM21/static/js/3.5492a786.chunk.js.map",
+    "index.html": "/PENUGASAN-OPREC-WEB-MXM21/index.html",
+    "static/css/main.5ba6a973.chunk.css.map": "/PENUGASAN-OPREC-WEB-MXM21/static/css/main.5ba6a973.chunk.css.map",
+    "static/js/2.0554e5d4.chunk.js.LICENSE.txt": "/PENUGASAN-OPREC-WEB-MXM21/static/js/2.0554e5d4.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/PENUGASAN-OPREC-WEB-MXM21/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.979f9938.js",
+    "static/js/2.0554e5d4.chunk.js",
+    "static/css/main.5ba6a973.chunk.css",
+    "static/js/main.69e5917d.chunk.js"
+  ]
+}
