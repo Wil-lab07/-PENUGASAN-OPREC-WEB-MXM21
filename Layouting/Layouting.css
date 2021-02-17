@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.border{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    width: 700px;
+    height: 250px;
+    background-color: #d0cfd2;
+    display: flex;
+}
+
+.box-area1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fb7474;
+    width: 50%;
+    margin-right: 10px;
+}
+
+.box-area2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.box-area2 .first{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4f97a;
+    height: 100%;
+}
+.box-area2 .second{
+    display: flex;
+    height: 100%;
+}
+
+.box-area2 .second .left{
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fb9df3;
+    width: 100%;
+}
+.box-area2 .second .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.box-area2 .second .right .up{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9ca4f9;
+}
+.box-area2 .second .right .down{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9ca4f9;
+}
