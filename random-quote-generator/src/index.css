@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Homepage Quote */
+
+.Homepage{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border-radius: 20px;
+  padding: 10px;
+  height: 300px;
+  border: solid;
+}
+
+.Homepage .Header{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.Homepage .Main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Loading{
+  position: relative;
+  top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px;
+}
+.Loading .obj{
+  width: 15px;
+  height: 15px;
+  background-color: #1da1f3;
+  margin: 0 10px;
+  border-radius: 50%;
+  animation: Loading 0.5s ease infinite alternate;
+}
+
+.Loading .obj:nth-child(2){
+  animation-delay: 0.1s;
+  opacity: 0.8;
+}
+
+.Loading .obj:nth-child(3){
+  animation-delay: 0.2s;
+  opacity: 0.6;
+}
+
+.Loading .obj:nth-child(4){
+  animation-delay: 0.3s;
+  opacity: 0.4;
+}
+
+@keyframes Loading{
+  from{transform: translateY(0)}
+  to{transform: translateY(-80px);}
+}
+
+.Homepage .Header h2{
+  font-weight: 500;
+}
+
+.Homepage .Header img{
+  width: 70px;
+}
+
+.Homepage .Quote{
+  text-align: justify;
+  font-size: 13.5px;
+}
+
+.Homepage .Author{
+  font-weight: 600;
+}
+
+.Homepage .Author span{
+  border-radius: 5px;
+  padding: 0 3px;
+  color: white;
+  background-color: #1da1f3;
+  transition: 0.5s all ease-out;
+}
+
+.Homepage .button{
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.Homepage .button a{
+  /* border: 3px solid #1da1f3; */
+  background-color: #1da1f3;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  border-radius: 7px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  .Homepage{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+    height: 330px;
+    border: solid;
+  }
+}
